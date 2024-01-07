@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(227, 171, 131);
+        }
+        .item{
+    border: 1px solid red;
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    position: absolute;
+}
+#tajmahal:checked~.item{
+    background-image: url(https://skift.com/wp-content/uploads/2022/06/GettyImages-1208049833-scaled-e1654782364566-1024x682.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#charminar:checked~.item{
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/11/f4/ff/11/charminar.jpg);
+    background-size: cover;
+}
+#golconda:checked~.item{
+    background-image: url(https://newsmeter.in/h-upload/2023/06/01/346980-whatsapp-image-2023-06-01-at-40638-pm-1.jpg);
+    background-size: cover;
+}
+#Indiagate:checked~.item{
+    background-image: url(https://www.savaari.com/blog/wp-content/uploads/2023/11/india-gate-india-gate-delhi-tourist-attraction-1v5815e-1.webp);
+    background-size: 480px;
+    background-size: cover;
+}
+.task2{
+    margin-top: 750px;
+}
+.md{
+    margin-left: 250px;
+}
+    </style>
+</head>
+<body>
+    <div class="md">
+        <input id="tajmahal" type="checkbox" name="t1">tajmahal
+        <input id="charminar" type="checkbox" name="t1">charminar
+        <input id="golconda" type="checkbox" name="t1">golconda
+        <input id="Indiagate" type="checkbox" name="t1">India gate
+        <div class="item"></div>
+    </div>
+
+    <div class="task2">
+        <p class="p1"><img width="250px" src="./images/gateway.jpeg" alt=""> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis recusandae itaque quia, exercitationem saepe ipsa sunt, repellat similique nesciunt laboriosam dicta quibusdam excepturi voluptates unde asperiores eveniet necessitatibus aliquid? Necessitatibus<img width="250px" src="./images/redfort.jpg" alt=""></p>
+        
+    </div>
+   
+</body>
+</html>
